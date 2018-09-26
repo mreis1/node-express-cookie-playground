@@ -1,0 +1,25 @@
+{
+  "name": "express-cookie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "ts-node-dev src/index.ts -p ./src/tsconfig.json",
+    "build": "tsc -p ./src/tsconfig.json",
+    "build:w": "npm run build -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.6",
+    "node-cookie": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.0",
+    "@types/express-session": "^1.15.11",
+    "ts-node-dev": "^1.0.0-pre.30",
+    "typescript": "^3.0.3"
+  }
+}
